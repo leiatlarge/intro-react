@@ -34,7 +34,7 @@ class App extends React.Component {
   }
 
   /*Write an addStudent method here*/
-  addStudent(c) {
+  addStudent(studentName) {
     this.setState({
       students: this.state.students.concat(studentName)
     });
